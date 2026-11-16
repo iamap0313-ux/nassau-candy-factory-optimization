@@ -8,8 +8,10 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
+from sklearn.ensemble import GradientBoostingRegressor, RandomForestRegressor
+from sklearn.model_selection import train_test_split
 from nassau_core import (FACTORY_NAMES, REGIONS, SHIP_MODES, PRODUCT_TO_FACTORY, FREIGHT_USD_PER_UNIT_PER_1000KM,
-                         simulate, add_scores, compute_kpis)
+                         simulate, add_scores, compute_kpis, build_features)
 
 OUT = "outputs/"
 VERDICT_COLORS = {"Recommended": "#31a354", "High risk": "#de2d26", "Profit loss": "#fd8d3c",
@@ -17,9 +19,24 @@ VERDICT_COLORS = {"Recommended": "#31a354", "High risk": "#de2d26", "Profit loss
 
 
 # ---------------------------------------------------------------- cached loaders
-@st.cache_resource
+def train_models():
+    """Re-train the two models from cleaned_data.csv (same settings and seed as pipeline.py).
+    Used when the saved model file cannot be opened, e.g. on a server with a different library build."""
+    df = pd.read_csv(OUT + "cleaned_data.csv")
+    X = build_features(df["Ship Mode"], df["Region"], df["Factory"], df["Division"], df["Units"], df["Distance (km)"])
+    y = df["Lead Time (days)"].to_numpy()
+    Xtr, _, ytr, _ = train_test_split(X, y, test_size=0.2, random_state=42)
+    gb = GradientBoostingRegressor(n_estimators=200, learning_rate=0.05, max_depth=3, random_state=42).fit(Xtr, ytr)
+    rf = RandomForestRegressor(n_estimators=200, min_samples_leaf=5, max_depth=12, random_state=42, n_jobs=-1).fit(Xtr, ytr)
+    return {"model": gb, "rf": rf, "model_name": "Gradient Boosting", "columns": list(X.columns)}
+
+
+@st.cache_resource(show_spinner="Loading the prediction model...")
 def load_model():
-    return joblib.load(OUT + "model.joblib")
+    try:
+        return joblib.load(OUT + "model.joblib")
+    except Exception:
+        return train_models()          # fall back to training a fresh copy (about 15 seconds, then cached)
 
 
 @st.cache_data
