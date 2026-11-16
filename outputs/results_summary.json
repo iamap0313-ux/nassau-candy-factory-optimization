@@ -1,0 +1,252 @@
+{
+ "eda": {
+  "division": {
+   "Chocolate": {
+    "Sales": 131089.34,
+    "GP": 88421.02
+   },
+   "Other": {
+    "Sales": 2799.5,
+    "GP": 901.5
+   },
+   "Sugar": {
+    "Sales": 367.48,
+    "GP": 236.73
+   }
+  },
+  "region": {
+   "Atlantic": {
+    "Sales": 38797.24,
+    "GP": 25773.7
+   },
+   "Gulf": {
+    "Sales": 21507.86,
+    "GP": 14312.07
+   },
+   "Interior": {
+    "Sales": 30537.49,
+    "GP": 20501.88
+   },
+   "Pacific": {
+    "Sales": 43413.73,
+    "GP": 28971.6
+   }
+  },
+  "margin_overall_pct": 66.70766039170447,
+  "margin_by_mode_pct": {
+   "First Class": 66.73,
+   "Same Day": 66.54,
+   "Second Class": 66.6,
+   "Standard Class": 66.75
+  },
+  "lead_by_mode": {
+   "First Class": 2.18,
+   "Same Day": 0.0,
+   "Second Class": 3.24,
+   "Standard Class": 5.0
+  },
+  "lead_by_region": {
+   "Atlantic": 3.92,
+   "Gulf": 3.98,
+   "Interior": 4.06,
+   "Pacific": 3.95
+  },
+  "mode_share_pct": {
+   "Standard Class": 60.2,
+   "Second Class": 19.5,
+   "First Class": 15.2,
+   "Same Day": 5.1
+  },
+  "orders_by_factory": {
+   "Lot's O' Nuts": 5678,
+   "Wicked Choccy's": 4135,
+   "Secret Factory": 148,
+   "The Other Factory": 100,
+   "Sugar Shack": 33
+  },
+  "avg_distance_by_factory": {
+   "Lot's O' Nuts": 2087.0,
+   "Secret Factory": 1354.0,
+   "Sugar Shack": 1714.0,
+   "The Other Factory": 1601.0,
+   "Wicked Choccy's": 1871.0
+  },
+  "corr_distance_leadtime_by_mode": {
+   "First Class": 0.01698760438039477,
+   "Same Day": NaN,
+   "Second Class": 0.0062676756715713405,
+   "Standard Class": 0.0017971613727417119
+  },
+  "rows_after_cleaning": 10094,
+  "outliers_removed": 100
+ },
+ "ablation": {
+  "ship mode only": 0.6565545864734049,
+  "ship mode + units + division": 0.6542349212123943,
+  "ship mode + distance/factory/region": 0.6611188105862202,
+  "all features": 0.6601733829984497
+ },
+ "best_model": "Gradient Boosting",
+ "naive_rmse": 1.712690099535895,
+ "kpi": {
+  "avg_lead_time_reduction_pct_recommended": 1.05157375498627,
+  "profit_impact_stability_pct": 78.25568266749995,
+  "scenario_confidence_score": 55.60909090909092,
+  "recommendation_coverage_pct": 73.33333333333333,
+  "products_with_recommendation": 11,
+  "products_total": 15,
+  "scenarios_simulated": 60,
+  "scenarios_recommended": 19
+ },
+ "silhouette": {
+  "3": 0.28395131978092736,
+  "4": 0.23620519726635136,
+  "5": 0.25410468017277593,
+  "6": 0.24148928466469852
+ },
+ "k": 3,
+ "year_shifts": {
+  "2021": 904,
+  "2022": 1269,
+  "2023": 1269,
+  "2024": 1635
+ },
+ "freight_sensitivity": [
+  {
+   "freight_rate": 0.05,
+   "recommended_scenarios": 13,
+   "products_covered": 5,
+   "total_profit_impact_best_recs": 2.60768968245922
+  },
+  {
+   "freight_rate": 0.15,
+   "recommended_scenarios": 19,
+   "products_covered": 11,
+   "total_profit_impact_best_recs": 725.7730611209578
+  },
+  {
+   "freight_rate": 0.3,
+   "recommended_scenarios": 19,
+   "products_covered": 11,
+   "total_profit_impact_best_recs": 1451.5461222419156
+  }
+ ],
+ "slow_routes": [
+  {
+   "Factory": "Wicked Choccy's",
+   "State/Province": "Minnesota",
+   "Orders": 45,
+   "AvgLead": 4.47,
+   "AvgExcess": 0.6,
+   "AvgDist": 1943.12
+  },
+  {
+   "Factory": "Lot's O' Nuts",
+   "State/Province": "Oklahoma",
+   "Orders": 41,
+   "AvgLead": 4.56,
+   "AvgExcess": 0.5,
+   "AvgDist": 1344.59
+  },
+  {
+   "Factory": "Lot's O' Nuts",
+   "State/Province": "Missouri",
+   "Orders": 36,
+   "AvgLead": 4.17,
+   "AvgExcess": 0.41,
+   "AvgDist": 1841.87
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "State/Province": "Delaware",
+   "Orders": 49,
+   "AvgLead": 4.55,
+   "AvgExcess": 0.37,
+   "AvgDist": 920.63
+  },
+  {
+   "Factory": "Lot's O' Nuts",
+   "State/Province": "Alabama",
+   "Orders": 34,
+   "AvgLead": 4.47,
+   "AvgExcess": 0.22,
+   "AvgDist": 2328.05
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "State/Province": "Arizona",
+   "Orders": 105,
+   "AvgLead": 4.1,
+   "AvgExcess": 0.21,
+   "AvgDist": 2840.17
+  },
+  {
+   "Factory": "Lot's O' Nuts",
+   "State/Province": "Arkansas",
+   "Orders": 31,
+   "AvgLead": 4.29,
+   "AvgExcess": 0.19,
+   "AvgDist": 1798.89
+  },
+  {
+   "Factory": "Wicked Choccy's",
+   "State/Province": "Oregon",
+   "Orders": 43,
+   "AvgLead": 4.44,
+   "AvgExcess": 0.17,
+   "AvgDist": 3662.44
+  }
+ ],
+ "congested": [
+  {
+   "Product Name": "Wonka Bar - Fudge Mallows",
+   "Region": "Pacific",
+   "Orders": 566,
+   "AvgLead": 4.07,
+   "Congested": true
+  },
+  {
+   "Product Name": "Wonka Bar - Milk Chocolate",
+   "Region": "Atlantic",
+   "Orders": 639,
+   "AvgLead": 4.05,
+   "Congested": true
+  },
+  {
+   "Product Name": "Wonka Bar - Milk Chocolate",
+   "Region": "Interior",
+   "Orders": 499,
+   "AvgLead": 4.1,
+   "Congested": true
+  },
+  {
+   "Product Name": "Wonka Bar - Milk Chocolate",
+   "Region": "Pacific",
+   "Orders": 661,
+   "AvgLead": 4.08,
+   "Congested": true
+  },
+  {
+   "Product Name": "Wonka Bar - Nutty Crunch Surprise",
+   "Region": "Interior",
+   "Orders": 449,
+   "AvgLead": 4.0,
+   "Congested": true
+  },
+  {
+   "Product Name": "Wonka Bar -Scrumdiddlyumptious",
+   "Region": "Interior",
+   "Orders": 459,
+   "AvgLead": 4.12,
+   "Congested": true
+  }
+ ],
+ "top_features_rf": {
+  "ship_mode_rank": 0.5007,
+  "mode_Standard Class": 0.3158,
+  "mode_Same Day": 0.091,
+  "distance_km": 0.0336,
+  "units": 0.0208,
+  "mode_First Class": 0.0167
+ }
+}

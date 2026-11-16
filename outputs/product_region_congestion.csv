@@ -1,0 +1,53 @@
+Product Name,Region,Orders,AvgLead,Congested
+Everlasting Gobstopper,Gulf,1,4.0,False
+Everlasting Gobstopper,Interior,1,6.0,False
+Fizzy Lifting Drinks,Atlantic,2,3.5,False
+Fizzy Lifting Drinks,Gulf,1,5.0,False
+Fizzy Lifting Drinks,Interior,2,4.0,False
+Fizzy Lifting Drinks,Pacific,1,5.0,False
+Fun Dip,Atlantic,1,6.0,False
+Fun Dip,Gulf,1,3.0,False
+Fun Dip,Interior,1,2.0,False
+Hair Toffee,Atlantic,1,4.0,False
+Hair Toffee,Gulf,1,0.0,False
+Hair Toffee,Pacific,2,4.5,False
+Kazookles,Atlantic,37,3.865,False
+Kazookles,Gulf,18,3.556,False
+Kazookles,Interior,11,3.818,False
+Kazookles,Pacific,30,3.667,False
+Laffy Taffy,Atlantic,6,4.167,False
+Laffy Taffy,Gulf,2,5.5,False
+Laffy Taffy,Interior,1,3.0,False
+Laffy Taffy,Pacific,1,3.0,False
+Lickable Wallpaper,Atlantic,11,3.182,False
+Lickable Wallpaper,Gulf,3,3.667,False
+Lickable Wallpaper,Interior,3,4.333,False
+Lickable Wallpaper,Pacific,10,3.7,False
+Nerds,Atlantic,4,4.5,False
+SweeTARTS,Atlantic,5,5.2,False
+SweeTARTS,Interior,4,4.25,False
+SweeTARTS,Pacific,1,3.0,False
+Wonka Bar - Fudge Mallows,Atlantic,548,3.891,False
+Wonka Bar - Fudge Mallows,Gulf,291,3.893,False
+Wonka Bar - Fudge Mallows,Interior,410,3.978,False
+Wonka Bar - Fudge Mallows,Pacific,566,4.069,True
+Wonka Bar - Milk Chocolate,Atlantic,639,4.047,True
+Wonka Bar - Milk Chocolate,Gulf,333,4.006,False
+Wonka Bar - Milk Chocolate,Interior,499,4.1,True
+Wonka Bar - Milk Chocolate,Pacific,661,4.076,True
+Wonka Bar - Nutty Crunch Surprise,Atlantic,490,3.9,False
+Wonka Bar - Nutty Crunch Surprise,Gulf,296,3.956,False
+Wonka Bar - Nutty Crunch Surprise,Interior,449,3.998,True
+Wonka Bar - Nutty Crunch Surprise,Pacific,567,3.887,False
+Wonka Bar - Triple Dazzle Caramel,Atlantic,558,3.878,False
+Wonka Bar - Triple Dazzle Caramel,Gulf,328,4.03,False
+Wonka Bar - Triple Dazzle Caramel,Interior,447,4.125,False
+Wonka Bar - Triple Dazzle Caramel,Pacific,670,3.961,False
+Wonka Bar -Scrumdiddlyumptious,Atlantic,623,3.849,False
+Wonka Bar -Scrumdiddlyumptious,Gulf,309,4.026,False
+Wonka Bar -Scrumdiddlyumptious,Interior,459,4.118,True
+Wonka Bar -Scrumdiddlyumptious,Pacific,670,3.824,False
+Wonka Gum,Atlantic,37,3.946,False
+Wonka Gum,Gulf,26,4.038,False
+Wonka Gum,Interior,29,3.483,False
+Wonka Gum,Pacific,27,3.37,False

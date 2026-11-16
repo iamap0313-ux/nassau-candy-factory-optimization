@@ -1,0 +1,46 @@
+Product,Division,Current Factory,Candidate Factory,Is Current,Orders,Base Lead Time (days),New Lead Time (days),Lead Time Change (days),Lead Time Reduction (%),Avg Distance Before (km),Avg Distance After (km),Profit Impact ($),Profit Impact (%),Share of Orders Not Hurt (%),Tree Agreement,Capacity Strain,Risk Score,Confidence Score,Evidence,Priority Score,Verdict,Rank in Product
+Everlasting Gobstopper,Sugar,Secret Factory,The Other Factory,False,2,5.0042,4.9369,-0.0672,1.3438,1480.3953,986.2636,0.5334,0.9525,100.0,0.625,0.0083,42.7129,37.9,Weak,58.105,Recommended,1
+Everlasting Gobstopper,Sugar,Secret Factory,Wicked Choccy's,False,2,5.0042,5.0786,0.0744,-1.4874,1480.3953,1063.471,0.5555,0.992,50.0,0.455,0.0002,49.8101,27.7,Weak,45.2163,Slower,2
+Everlasting Gobstopper,Sugar,Secret Factory,Lot's O' Nuts,False,2,5.0042,5.0682,0.064,-1.2799,1480.3953,2009.9932,-0.661,-1.1803,50.0,0.515,0.0001,48.9073,31.3,Weak,44.9334,Profit loss,3
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Secret Factory,False,6,4.2246,4.123,-0.1016,2.4061,1639.2026,1110.2532,1.6734,3.5416,100.0,0.745,0.0166,35.5287,45.9,Moderate,66.6914,Recommended,1
+Fizzy Lifting Drinks,Sugar,Sugar Shack,The Other Factory,False,6,4.2246,4.1496,-0.075,1.7764,1639.2026,1232.5087,1.3921,2.9462,83.3333,0.565,0.0243,46.715,35.1,Weak,59.4543,Recommended,2
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Wicked Choccy's,False,6,4.2246,4.1806,-0.044,1.0413,1639.2026,1353.8642,1.3438,2.8441,50.0,0.61,0.0006,42.8302,37.8,Weak,58.1008,Recommended,3
+Fun Dip,Sugar,Sugar Shack,The Other Factory,False,3,3.8335,3.7911,-0.0423,1.1039,1452.9019,801.7818,0.5321,11.0859,100.0,0.735,0.0123,36.2163,44.7,Weak,66.196,Recommended,1
+Fun Dip,Sugar,Sugar Shack,Secret Factory,False,3,3.8335,3.8903,0.0569,-1.484,1452.9019,725.6111,0.7913,16.4859,100.0,0.825,0.0084,30.6184,50.1,Moderate,61.5105,Slower,2
+Fun Dip,Sugar,Sugar Shack,Wicked Choccy's,False,3,3.8335,3.89,0.0565,-1.4742,1452.9019,1025.6225,0.3505,7.3027,66.6667,0.91,0.0003,25.1151,55.2,Moderate,57.1235,Slower,3
+Hair Toffee,Sugar,The Other Factory,Lot's O' Nuts,False,4,3.1979,3.1608,-0.0372,1.1622,1776.063,1829.4881,0.7476,1.2565,50.0,0.69,0.0003,38.2147,42.2,Weak,59.2525,Recommended,1
+Hair Toffee,Sugar,The Other Factory,Wicked Choccy's,False,4,3.1979,3.2066,0.0086,-0.2704,1776.063,2024.3244,-0.9869,-1.6586,50.0,0.82,0.0004,30.4202,50.0,Moderate,54.2495,Profit loss,2
+Hair Toffee,Sugar,The Other Factory,Secret Factory,False,4,3.1979,3.282,0.084,-2.6276,1776.063,1736.8516,0.2111,0.3547,75.0,0.47,0.0111,50.1561,29.0,Weak,40.5952,Slower,3
+Kazookles,Other,The Other Factory,Secret Factory,False,96,3.7935,3.8158,0.0222,-0.5864,1593.2766,1564.6357,1.2232,1.3188,70.8333,0.56,0.2085,47.2249,52.8,Moderate,49.5258,Recommended,1
+Kazookles,Other,The Other Factory,Wicked Choccy's,False,96,3.7935,3.8602,0.0667,-1.7579,1593.2766,1825.8964,-10.3068,-11.1124,45.8333,0.64,0.0096,32.4786,57.6,Moderate,41.2229,Profit loss,2
+Kazookles,Other,The Other Factory,Sugar Shack,False,96,3.7935,3.9271,0.1335,-3.5193,1593.2766,1887.7169,-18.4035,-19.842,30.2083,0.605,0.5685,62.5271,55.5,Moderate,23.1659,High risk,3
+Laffy Taffy,Sugar,Sugar Shack,Secret Factory,False,10,4.0847,3.9172,-0.1675,4.1006,1803.2528,1325.6702,2.6059,7.7833,90.0,0.68,0.0273,39.5633,42.8,Weak,74.3579,Recommended,1
+Laffy Taffy,Sugar,Sugar Shack,Wicked Choccy's,False,10,4.0847,3.9849,-0.0998,2.4424,1803.2528,1285.1675,4.2839,12.7955,80.0,0.575,0.001,44.5504,36.5,Weak,68.9265,Recommended,2
+Laffy Taffy,Sugar,Sugar Shack,The Other Factory,False,10,4.0847,3.95,-0.1347,3.2969,1803.2528,1424.5419,3.0443,9.0929,80.0,0.545,0.0397,48.2874,34.7,Weak,68.1591,Recommended,3
+Lickable Wallpaper,Other,Secret Factory,The Other Factory,False,27,3.624,3.6216,-0.0024,0.0653,1524.8458,1660.9209,-0.9523,-0.1905,81.4815,0.575,0.0997,47.7839,39.9,Weak,50.8259,Profit loss,1
+Lickable Wallpaper,Other,Secret Factory,Lot's O' Nuts,False,27,3.624,3.6215,-0.0025,0.0678,1524.8458,2210.7244,-4.3261,-0.8652,40.7407,0.5,0.002,47.3989,35.4,Weak,50.5514,Profit loss,2
+Lickable Wallpaper,Other,Secret Factory,Wicked Choccy's,False,27,3.624,3.6535,0.0295,-0.8147,1524.8458,1995.0437,-3.689,-0.7378,51.8519,0.585,0.0027,42.3357,40.5,Weak,48.9421,Profit loss,3
+Nerds,Sugar,Sugar Shack,Secret Factory,False,4,4.9819,4.9717,-0.0102,0.204,1694.3749,1205.018,0.7042,10.0601,100.0,0.44,0.0111,50.1561,27.2,Weak,56.6836,Recommended,1
+Nerds,Sugar,Sugar Shack,The Other Factory,False,4,4.9819,4.9343,-0.0476,0.9546,1694.3749,1448.744,0.3178,4.5396,100.0,0.48,0.0164,50.4178,29.6,Weak,55.997,Recommended,2
+Nerds,Sugar,Sugar Shack,Wicked Choccy's,False,4,4.9819,5.0181,0.0362,-0.7274,1694.3749,1230.8883,0.6441,9.2013,100.0,0.585,0.0004,44.5202,35.9,Weak,54.7764,Recommended,3
+SweeTARTS,Sugar,Sugar Shack,The Other Factory,False,10,4.6011,4.424,-0.1771,3.8493,1756.4261,1361.3064,2.3075,8.04,80.0,0.72,0.0397,37.7874,45.2,Moderate,74.3613,Recommended,1
+SweeTARTS,Sugar,Sugar Shack,Secret Factory,False,10,4.6011,4.4092,-0.1919,4.1709,1756.4261,1315.9308,2.785,9.7038,90.0,0.6,0.0273,44.3633,38.0,Weak,73.5942,Recommended,2
+SweeTARTS,Sugar,Sugar Shack,Wicked Choccy's,False,10,4.6011,4.5106,-0.0904,1.9658,1756.4261,1592.079,1.1404,3.9736,80.0,0.545,0.001,46.3504,34.7,Weak,60.9316,Recommended,3
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,1815,3.9564,3.9842,0.0278,-0.7024,2107.1329,1856.035,215.9666,1.3051,57.4105,0.835,0.1518,17.488,90.1,Strong,58.6433,Recommended,1
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,Secret Factory,False,1815,3.9564,3.941,-0.0154,0.3882,2107.1329,1459.6305,637.6339,3.8532,59.1736,0.585,1.0,74.9,75.1,Strong,44.7737,High risk,2
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,The Other Factory,False,1815,3.9564,3.9216,-0.0348,0.8807,2107.1329,1530.9787,563.1,3.4028,68.8154,0.49,1.0,80.0,69.4,Moderate,44.1624,High risk,3
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,Lot's O' Nuts,False,2132,4.0266,3.9978,-0.0289,0.7169,1852.7328,2112.5601,-247.3404,-1.4212,41.9794,0.81,0.133,18.0476,88.6,Strong,62.7278,Profit loss,1
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,The Other Factory,False,2132,4.0266,3.9582,-0.0684,1.6983,1852.7328,1528.4676,414.5919,2.3823,64.7749,0.69,1.0,68.6,81.4,Strong,50.4209,High risk,2
+Wonka Bar - Milk Chocolate,Chocolate,Wicked Choccy's,Secret Factory,False,2132,4.0266,3.9784,-0.0482,1.1972,1852.7328,1451.6292,501.2461,2.8802,78.94,0.55,1.0,77.0,73.0,Strong,45.9512,High risk,3
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,1802,3.9286,3.9606,0.032,-0.8148,2070.544,1858.4328,231.2606,1.3819,57.1587,0.87,0.1508,15.3424,92.2,Strong,58.8872,Recommended,1
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,Secret Factory,False,1802,3.9286,3.9147,-0.0139,0.3527,2070.544,1444.7776,650.5047,3.887,59.2675,0.64,1.0,71.6,78.4,Strong,45.8617,High risk,2
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,The Other Factory,False,1802,3.9286,3.8958,-0.0327,0.8335,2070.544,1512.8375,576.0948,3.4424,68.535,0.445,1.0,80.0,66.7,Moderate,44.0443,High risk,3
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,Lot's O' Nuts,False,2003,4.0204,3.9897,-0.0308,0.7649,1889.8714,2055.4693,-145.1709,-0.7889,44.0839,0.885,0.126,13.2003,93.1,Strong,65.0886,Profit loss,1
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,The Other Factory,False,2003,4.0204,3.9623,-0.0582,1.4469,1889.8714,1547.5377,399.0215,2.1684,66.2007,0.645,1.0,71.3,78.7,Strong,48.4916,High risk,2
+Wonka Bar - Triple Dazzle Caramel,Chocolate,Wicked Choccy's,Secret Factory,False,2003,4.0204,3.9736,-0.0468,1.1645,1889.8714,1474.6737,487.504,2.6492,80.4294,0.54,1.0,77.6,72.4,Strong,45.517,High risk,3
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,2061,3.9436,3.9633,0.0197,-0.499,2084.0009,1880.6785,268.2186,1.3874,55.41,0.845,0.1687,17.7327,90.7,Strong,59.5218,Recommended,1
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,The Other Factory,False,2061,3.9436,3.8967,-0.047,1.1915,2084.0009,1547.8701,647.69,3.3503,67.4915,0.605,1.0,73.7,76.3,Strong,47.4042,High risk,2
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,Secret Factory,False,2061,3.9436,3.9215,-0.0222,0.5628,2084.0009,1480.2633,721.9877,3.7346,57.7875,0.575,1.0,75.5,74.5,Strong,45.0257,High risk,3
+Wonka Gum,Other,Secret Factory,The Other Factory,False,119,3.7354,3.7247,-0.0106,0.2848,1313.6931,1353.8563,-1.7204,-0.5572,32.7731,0.565,0.3269,50.5456,57.7,Moderate,50.4781,Profit loss,1
+Wonka Gum,Other,Secret Factory,Wicked Choccy's,False,119,3.7354,3.7731,0.0377,-1.0105,1313.6931,1576.706,-12.1631,-3.9395,36.1345,0.55,0.0118,35.6916,56.8,Moderate,48.1204,Profit loss,2
+Wonka Gum,Other,Secret Factory,Lot's O' Nuts,False,119,3.7354,3.756,0.0206,-0.5514,1313.6931,2259.2796,-84.2055,-27.273,31.9328,0.625,0.0086,31.0325,61.3,Moderate,35.5843,Profit loss,3

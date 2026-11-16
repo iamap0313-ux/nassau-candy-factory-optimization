@@ -1,0 +1,20 @@
+Product,Division,Current Factory,Candidate Factory,Is Current,Orders,Base Lead Time (days),New Lead Time (days),Lead Time Change (days),Lead Time Reduction (%),Avg Distance Before (km),Avg Distance After (km),Profit Impact ($),Profit Impact (%),Share of Orders Not Hurt (%),Tree Agreement,Capacity Strain,Risk Score,Confidence Score,Evidence,Priority Score,Verdict,Rank in Product
+SweeTARTS,Sugar,Sugar Shack,The Other Factory,False,10,4.6011,4.424,-0.1771,3.8493,1756.4261,1361.3064,2.3075,8.04,80.0,0.72,0.0397,37.7874,45.2,Moderate,74.3613,Recommended,1
+Laffy Taffy,Sugar,Sugar Shack,Secret Factory,False,10,4.0847,3.9172,-0.1675,4.1006,1803.2528,1325.6702,2.6059,7.7833,90.0,0.68,0.0273,39.5633,42.8,Weak,74.3579,Recommended,1
+SweeTARTS,Sugar,Sugar Shack,Secret Factory,False,10,4.6011,4.4092,-0.1919,4.1709,1756.4261,1315.9308,2.785,9.7038,90.0,0.6,0.0273,44.3633,38.0,Weak,73.5942,Recommended,2
+Laffy Taffy,Sugar,Sugar Shack,Wicked Choccy's,False,10,4.0847,3.9849,-0.0998,2.4424,1803.2528,1285.1675,4.2839,12.7955,80.0,0.575,0.001,44.5504,36.5,Weak,68.9265,Recommended,2
+Laffy Taffy,Sugar,Sugar Shack,The Other Factory,False,10,4.0847,3.95,-0.1347,3.2969,1803.2528,1424.5419,3.0443,9.0929,80.0,0.545,0.0397,48.2874,34.7,Weak,68.1591,Recommended,3
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Secret Factory,False,6,4.2246,4.123,-0.1016,2.4061,1639.2026,1110.2532,1.6734,3.5416,100.0,0.745,0.0166,35.5287,45.9,Moderate,66.6914,Recommended,1
+Fun Dip,Sugar,Sugar Shack,The Other Factory,False,3,3.8335,3.7911,-0.0423,1.1039,1452.9019,801.7818,0.5321,11.0859,100.0,0.735,0.0123,36.2163,44.7,Weak,66.196,Recommended,1
+SweeTARTS,Sugar,Sugar Shack,Wicked Choccy's,False,10,4.6011,4.5106,-0.0904,1.9658,1756.4261,1592.079,1.1404,3.9736,80.0,0.545,0.001,46.3504,34.7,Weak,60.9316,Recommended,3
+Wonka Bar -Scrumdiddlyumptious,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,2061,3.9436,3.9633,0.0197,-0.499,2084.0009,1880.6785,268.2186,1.3874,55.41,0.845,0.1687,17.7327,90.7,Strong,59.5218,Recommended,1
+Fizzy Lifting Drinks,Sugar,Sugar Shack,The Other Factory,False,6,4.2246,4.1496,-0.075,1.7764,1639.2026,1232.5087,1.3921,2.9462,83.3333,0.565,0.0243,46.715,35.1,Weak,59.4543,Recommended,2
+Hair Toffee,Sugar,The Other Factory,Lot's O' Nuts,False,4,3.1979,3.1608,-0.0372,1.1622,1776.063,1829.4881,0.7476,1.2565,50.0,0.69,0.0003,38.2147,42.2,Weak,59.2525,Recommended,1
+Wonka Bar - Nutty Crunch Surprise,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,1802,3.9286,3.9606,0.032,-0.8148,2070.544,1858.4328,231.2606,1.3819,57.1587,0.87,0.1508,15.3424,92.2,Strong,58.8872,Recommended,1
+Wonka Bar - Fudge Mallows,Chocolate,Lot's O' Nuts,Wicked Choccy's,False,1815,3.9564,3.9842,0.0278,-0.7024,2107.1329,1856.035,215.9666,1.3051,57.4105,0.835,0.1518,17.488,90.1,Strong,58.6433,Recommended,1
+Everlasting Gobstopper,Sugar,Secret Factory,The Other Factory,False,2,5.0042,4.9369,-0.0672,1.3438,1480.3953,986.2636,0.5334,0.9525,100.0,0.625,0.0083,42.7129,37.9,Weak,58.105,Recommended,1
+Fizzy Lifting Drinks,Sugar,Sugar Shack,Wicked Choccy's,False,6,4.2246,4.1806,-0.044,1.0413,1639.2026,1353.8642,1.3438,2.8441,50.0,0.61,0.0006,42.8302,37.8,Weak,58.1008,Recommended,3
+Nerds,Sugar,Sugar Shack,Secret Factory,False,4,4.9819,4.9717,-0.0102,0.204,1694.3749,1205.018,0.7042,10.0601,100.0,0.44,0.0111,50.1561,27.2,Weak,56.6836,Recommended,1
+Nerds,Sugar,Sugar Shack,The Other Factory,False,4,4.9819,4.9343,-0.0476,0.9546,1694.3749,1448.744,0.3178,4.5396,100.0,0.48,0.0164,50.4178,29.6,Weak,55.997,Recommended,2
+Nerds,Sugar,Sugar Shack,Wicked Choccy's,False,4,4.9819,5.0181,0.0362,-0.7274,1694.3749,1230.8883,0.6441,9.2013,100.0,0.585,0.0004,44.5202,35.9,Weak,54.7764,Recommended,3
+Kazookles,Other,The Other Factory,Secret Factory,False,96,3.7935,3.8158,0.0222,-0.5864,1593.2766,1564.6357,1.2232,1.3188,70.8333,0.56,0.2085,47.2249,52.8,Moderate,49.5258,Recommended,1

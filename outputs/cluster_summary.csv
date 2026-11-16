@@ -1,0 +1,4 @@
+Cluster,AvgLead,StdLead,AvgExcess,AvgDist,LogOrders,Routes,Label
+0,5.44,0.91,0.89,3663.71,0.89,6,Slower than expected
+1,3.59,1.25,-0.55,1715.55,1.05,24,Faster than expected
+2,4.06,1.76,0.08,1905.79,1.74,84,Typical (group 2)
